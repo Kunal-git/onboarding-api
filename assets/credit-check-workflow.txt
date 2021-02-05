@@ -1,6 +1,8 @@
 ## Credit Check Workflow
 
-Home 
--> CreditCheck
--> CreditCheckForm(companyName) -> CreditCheckScore
--> Home
+Home -> CreditCheckHistory(identifier)
+CreditCheckHistory(identifier) -> CreditCheckForm(companyName)
+CreditCheckForm(companyName) -> CreditRating(1 to 10)
+CreditCheckForm(companyName) -> UpdateCheckHistory(identifier, companyName, dateRequested, creditRating)
+CreditCheckForm(companyName) -> Home
+CreditCheckHistory(identifier) -> Home
