@@ -1,0 +1,6 @@
+## Credit Check Workflow
+
+Home 
+-> CreditCheck
+-> CreditCheckForm(companyName) -> CreditCheckScore
+-> Home
