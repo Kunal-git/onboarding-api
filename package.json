@@ -21,6 +21,14 @@
   ],
   "author": "Jan Devsmith <jdevsmith@example.org>",
   "license": "ISC",
+  
+  
+  "_comment1": "added in chapter 5, net pg no - 122",
+  "assets" : {
+		"diagram" : "CreditCheck_API.png",
+		"alps" : "onboarding-alps-05.yaml"
+	},
+
   "bugs": {
     "url": "https://github.com/Kunal-git/onboarding-api/issues"
   },
